@@ -11,6 +11,7 @@ import UIKit
 class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
+    var categoryToPass: String!
     
     let data = DataSet()
     
@@ -43,7 +44,14 @@ class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        categoryToPass = data.categories[indexPath.row].title
         performSegue(withIdentifier: "toRecipesSelection", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let recipesVC = segue.destination as? RecipesSelectionVC {
+            recipesVC.selectedCategory = categoryToPass
+        }
     }
 
 }
