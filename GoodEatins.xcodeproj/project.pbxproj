@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D108BFF72328E15400502CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D108BFF62328E15400502CA7 /* AppDelegate.swift */; };
-		D108BFF92328E15400502CA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D108BFF82328E15400502CA7 /* ViewController.swift */; };
+		D108BFF92328E15400502CA7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D108BFF82328E15400502CA7 /* HomeVC.swift */; };
 		D108BFFC2328E15400502CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D108BFFA2328E15400502CA7 /* Main.storyboard */; };
 		D108BFFE2328E15500502CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D108BFFD2328E15500502CA7 /* Assets.xcassets */; };
 		D108C0012328E15600502CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D108BFFF2328E15600502CA7 /* LaunchScreen.storyboard */; };
@@ -16,12 +16,13 @@
 		D108C00E2328E33C00502CA7 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D108C00D2328E33C00502CA7 /* Recipe.swift */; };
 		D108C0102328E3A700502CA7 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D108C00F2328E3A700502CA7 /* DataSet.swift */; };
 		D1C167EA2329D82F00BACD7C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C167E92329D82F00BACD7C /* CategoryCell.swift */; };
+		D1C167EC232A0ED700BACD7C /* RecipesSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C167EB232A0ED700BACD7C /* RecipesSelectionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D108BFF32328E15400502CA7 /* GoodEatins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodEatins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D108BFF62328E15400502CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D108BFF82328E15400502CA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D108BFF82328E15400502CA7 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		D108BFFB2328E15400502CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D108BFFD2328E15500502CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D108C0002328E15600502CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +31,7 @@
 		D108C00D2328E33C00502CA7 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		D108C00F2328E3A700502CA7 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 		D1C167E92329D82F00BACD7C /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		D1C167EB232A0ED700BACD7C /* RecipesSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesSelectionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 		D108C00A2328E25200502CA7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D108BFF82328E15400502CA7 /* ViewController.swift */,
+				D108BFF82328E15400502CA7 /* HomeVC.swift */,
+				D1C167EB232A0ED700BACD7C /* RecipesSelectionVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -171,10 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D108BFF92328E15400502CA7 /* ViewController.swift in Sources */,
+				D108BFF92328E15400502CA7 /* HomeVC.swift in Sources */,
 				D108C0102328E3A700502CA7 /* DataSet.swift in Sources */,
 				D108C00C2328E29200502CA7 /* FoodCategory.swift in Sources */,
 				D108BFF72328E15400502CA7 /* AppDelegate.swift in Sources */,
+				D1C167EC232A0ED700BACD7C /* RecipesSelectionVC.swift in Sources */,
 				D108C00E2328E33C00502CA7 /* Recipe.swift in Sources */,
 				D1C167EA2329D82F00BACD7C /* CategoryCell.swift in Sources */,
 			);
