@@ -101,7 +101,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mWm-gV-OgB">
+                                                <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pasta1" translatesAutoresizingMaskIntoConstraints="NO" id="mWm-gV-OgB">
                                                     <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 </imageView>
                                             </subviews>
@@ -158,5 +158,6 @@
     </scenes>
     <resources>
         <image name="burger6" width="966" height="725"/>
+        <image name="pasta1" width="676" height="900"/>
     </resources>
 </document>

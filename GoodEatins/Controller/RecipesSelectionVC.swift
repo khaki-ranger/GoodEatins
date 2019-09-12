@@ -42,5 +42,11 @@ class RecipesSelectionVC: UIViewController, UICollectionViewDelegate, UICollecti
         }
         return UICollectionViewCell()
     }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width = view.bounds.width
+        let cellDimension = (width / 2) - 15
+        return CGSize(width: cellDimension, height: cellDimension)
+    }
 
 }
